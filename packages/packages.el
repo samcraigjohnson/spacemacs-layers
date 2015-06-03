@@ -18,6 +18,7 @@
     cider
     flycheck
     web-mode
+    sass-mode
     ;; package packagess go here
     )
   "List of all packages to install and/or initialize. Built-in packages
