@@ -10,17 +10,15 @@
 ;;
 ;;; License: GPLv3
 
-(defvar packages-pre-extensions
+(setq myconfig-pre-extensions
   '(
     ;; pre extension packagess go here
-    )
-  "List of all extensions to load before the packages.")
+    ))
 
-(defvar packages-post-extensions
+(setq myconfig-post-extensions
   '(
     ;; post extension packagess go here
-    )
-  "List of all extensions to load after the packages.")
+    ))
 
 ;; For each extension, define a function packages/init-<extension-packages>
 ;;
